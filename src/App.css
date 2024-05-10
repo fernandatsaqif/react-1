@@ -1,97 +1,127 @@
-.Parentbox {
-  width: 80%;
-  overflow: hidden;
-  margin: auto;
-  margin-top: 100px;
-}
+/*.Parentbox {*/
+/*  width: 80%;*/
+/*  overflow: hidden;*/
+/*  margin: auto;*/
+/*  margin-top: 100px;*/
+/*}*/
 
-.Foto {
-  float: left;
-  width: 50%;
-  height: 700px;
-  background: #e3e9ee;
-}
+/*.Foto {*/
+/*  float: left;*/
+/*  width: 50%;*/
+/*  height: 700px;*/
+/*  background: #e3e9ee;*/
+/*}*/
 
-.Foto img {
-  width: 100%;
-  height: 100%;
-}
+/*.Foto img {*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
 
-.Deskripsi {
-  width: 40%;
-  overflow: hidden;
-  float: left;
-  margin-left: 30px;
-}
+/*.Deskripsi {*/
+/*  width: 40%;*/
+/*  overflow: hidden;*/
+/*  float: left;*/
+/*  margin-left: 30px;*/
+/*}*/
 
-.Deskripsi .info {
-  line-height: 1.8;
-  color: rgb(18, 11, 49);
-}
+/*.Deskripsi .info {*/
+/*  line-height: 1.8;*/
+/*  color: rgb(18, 11, 49);*/
+/*}*/
 
-.Deskripsi .price {
-  font-size: 20px;
-  font-weight: 500;
-}
+/*.Deskripsi .price {*/
+/*  font-size: 20px;*/
+/*  font-weight: 500;*/
+/*}*/
 
-.Deskripsi .Title {
-  margin: 0;
-}
+/*.Deskripsi .Title {*/
+/*  margin: 0;*/
+/*}*/
 
-.Deskripsi .Cate {
-  color: #acaeb2;
-}
+/*.Deskripsi .Cate {*/
+/*  color: #acaeb2;*/
+/*}*/
 
-.Deskripsi a {
-  margin-top: 20px;
-  color: #fff;
-  font-weight: 500;
-  background: rgb(255, 159, 159);
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 20px 10px 20px;
-  border-radius: 4px;
-  font-size: 20px;
-  transition: all 0.8s;
-}
+/*.Deskripsi a {*/
+/*  margin-top: 20px;*/
+/*  color: #fff;*/
+/*  font-weight: 500;*/
+/*  background: rgb(255, 159, 159);*/
+/*  text-decoration: none;*/
+/*  display: inline-block;*/
+/*  padding: 10px 20px 10px 20px;*/
+/*  border-radius: 4px;*/
+/*  font-size: 20px;*/
+/*  transition: all 0.8s;*/
+/*}*/
 
-.Deskripsi a:hover {
-  color: #ffffff;
-  background: rgb(221, 135, 135);
-  transition: all 0.8s;
-}
+/*.Deskripsi a:hover {*/
+/*  color: #ffffff;*/
+/*  background: rgb(221, 135, 135);*/
+/*  transition: all 0.8s;*/
+/*}*/
 
-.Deskripsi ul li {
-  padding-bottom: 10px;
-}
+/*.Deskripsi ul li {*/
+/*  padding-bottom: 10px;*/
+/*}*/
 
-.Review-box {
-  clear: both;
-  width: 100%;
-  overflow: hidden;
-  padding-bottom: 100px;
-}
+/*.Review-box {*/
+/*  clear: both;*/
+/*  width: 100%;*/
+/*  overflow: hidden;*/
+/*  padding-bottom: 100px;*/
+/*}*/
 
-.Review-box h2 {
-  margin-top: 50px;
-}
+/*.Review-box h2 {*/
+/*  margin-top: 50px;*/
+/*}*/
 
-.Review-box img {
-  width: 80px;
-  height: 80px;
-  border-radius: 11px;
-  background: #b1b1b1;
-  float: left;
-  margin-right: 16px;
-}
+/*!*.Review-box img {*!*/
+/*!*  width: 80px;*!*/
+/*!*  height: 80px;*!*/
+/*!*  border-radius: 11px;*!*/
+/*!*  background: #b1b1b1;*!*/
+/*!*  float: left;*!*/
+/*!*  margin-right: 16px;*!*/
+/*!*}*!*/
 
-.Review-box .User p, h3 {
-  padding-top: 10px;
-  margin-bottom: 8px;
-}
+/*!*.Review-box .User p, h3 {*!*/
+/*!*  padding-top: 10px;*!*/
+/*!*  background: deeppink;*!*/
+/*!*  margin-bottom: 8px;*!*/
+/*!*}*!*/
 
-.Review-box .Item {
-  width: 80%;
-  overflow: hidden;
-  margin-bottom: 24px;
-}
+/*!*.Review-box .Item {*!*/
+/*!*  width: 80%;*!*/
+/*!*  overflow: hidden;*!*/
+/*!*  background: blue;*!*/
+/*!*  margin-bottom: 24px;*!*/
+/*!*}*!*/
+
+/*.item {*/
+/*  display: flex;*/
+/*  width: 80%;*/
+/*  gap: 10px;*/
+/*  justify-content: start;*/
+/*  align-items: center;*/
+/*  padding-bottom: 18px;*/
+/*}*/
+
+/*.item :hover {*/
+/*  background: #f1f1f1;*/
+/*}*/
+
+/*.item img {*/
+/*  width: 80px;*/
+/*  height: 80px;*/
+/*  border-radius: 11px;*/
+/*}*/
+
+/*.item .content p, h3 {*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*}*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
